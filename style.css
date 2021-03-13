@@ -1,0 +1,48 @@
+h1 {
+    color: turquoise;
+}
+
+body {
+background-color: #000;
+margin:0px;
+}
+
+.header {
+    /*background-color:#0000;*/
+display:flex;
+justify-content: space-between;
+padding: 15px;
+font-size:20px;
+font-family: sans-serif;
+font-weight:400;
+color:black
+
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid img{
+    border:2px solid #0000;
+    border-radius:50px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: turquoise;
+
+}
+p{
+    color:white;
+    
+}
+::selection {
+    color:#FC766AFF;
+    background: #5B84B1FF;
+  }
+
+p,h2{
+    text-align: center;
+    color:white 
+}
